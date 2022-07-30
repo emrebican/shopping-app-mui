@@ -1,0 +1,25 @@
+.filter-wrapper {
+  width: 300px;
+  /* height: 67vh; */
+  margin-left: 20px;
+  padding: 40px;
+  border-radius: 4px;
+  background-color: rgba(0, 0, 0, 0.78);
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.filter-wrapper h4,
+h6 {
+  color: #fafafa;
+  margin-bottom: 10px;
+}
+.filter-wrapper span input {
+  color: "#fff";
+}
+
+form label {
+  color: #fafafa;
+  margin-top: 15px;
+}

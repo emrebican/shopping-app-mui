@@ -1,0 +1,100 @@
+.toolBar {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 50px;
+}
+
+.leftBox {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.list {
+  display: flex;
+  gap: 20px;
+}
+
+.menu-item {
+  gap: 15px;
+}
+
+.menu-img {
+  width: 80px;
+  border-radius: 4px;
+}
+
+.right-wrapper {
+  display: flex;
+  gap: 30px;
+}
+
+.logo {
+  position: absolute;
+  top: 4.95px;
+  left: 48.55px;
+  font-size: 50px;
+  color: #3f51b5;
+  z-index: -1;
+}
+
+/* 780px */
+@media (max-width: 780px) {
+  .appBar {
+    height: 110px;
+  }
+
+  .toolBar {
+    display: flex;
+    flex-direction: column;
+    margin: 0 50px;
+  }
+
+  .leftBox {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    /* justify-content: space-between; */
+    gap: 0px;
+    position: absolute;
+    left: 0;
+  }
+
+  .right-wrapper {
+    position: absolute;
+    right: 0;
+    bottom: -30px;
+  }
+
+  .logo {
+    top: -6.5px;
+    left: 25px;
+  }
+
+}
+
+/* 680px */
+@media (max-width: 680px) {
+  .toolBar {
+    display: flex;
+    flex-direction: column;
+    margin: 0 20px;
+  }
+}
+
+/* 600px */
+@media (max-width: 600px) {
+  .right-wrapper {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 10px;
+    right: 0;
+    bottom: -40px;
+  }
+  .menu-btn {
+    width: 90px;
+  }
+}

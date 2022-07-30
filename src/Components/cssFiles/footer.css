@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+
+.footer {
+  width: 100%;
+  padding: 20px 0;
+  /* height: 100%; */
+  background-color: #212121;
+  font-family: "Quicksand";
+}
+
+.link {
+  color: #fafafa;
+}
+
+.grid-item {
+    display: flex;
+    justify-content: center;
+}
+
+.copy {
+  margin-top: 20px;
+  color: #fafafa;
+  letter-spacing: 1.5px;
+  text-align: center;
+}
